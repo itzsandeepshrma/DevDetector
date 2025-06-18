@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevDetector – Frontend Tech Scanner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>DevDetector</h1>
+    <form onsubmit="event.preventDefault(); detectTech();">
+      <textarea id="htmlInput" rows="10" placeholder="Paste any source code (HTML, CSS, JS, etc.) or use Fetch below..."></textarea>
+      <input type="text" id="urlInput" placeholder="https://example.com (for live fetch)" />
+      <div>
+        <button type="button" onclick="fetchFromURL()">Fetch HTML from URL</button>
+        <button type="submit">Detect Technologies</button>
+      </div>
+    </form>
+    <div class="result" id="resultBox">
+      <h3 style="margin-bottom: 1rem;">Detected Technologies:</h3>
+      <div id="techList"></div>
+    </div>
+    <footer>© 𝟤𝟢𝟤𝟧 sᴧɴᴅᴇᴇᴘ sʜᴧʀᴍᴧ ᴧʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
