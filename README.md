@@ -41,6 +41,7 @@ cd DevDetector
 open index.html
 ```
 
+
 ---
 
 ## How It Works
