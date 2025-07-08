@@ -14,6 +14,7 @@
 - Fast and accurate frontend tech detection  
 - No browser extensions or server-side APIs required
 
+
 ---
 
 ## Tech Stack
